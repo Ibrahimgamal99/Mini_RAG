@@ -10,8 +10,6 @@ This project demonstrates the development of a **Retrieval-Augmented Generation 
 - [Method 2: Using Ollama](#method-2-using-ollama)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
 This project focuses on building a RAG system that retrieves relevant documents and generates answers based on that context. The system supports PDF file uploads and Wikipedia searches. Two different approaches are implemented:
@@ -24,7 +22,7 @@ The project aims to provide flexibility for NLP-based applications with support 
 ## Installation
 
 ### Prerequisites
-- Python 3.8+
+- Python 3.10+
 - Dependencies listed in `requirements.txt`
 - Models from HuggingFace or Ollama
 
@@ -46,7 +44,6 @@ The project aims to provide flexibility for NLP-based applications with support 
    ```bash
    pip install -r requirements.txt
    ```
-
 4. **Download models**:
    - For Ollama, pull the required models using:
      ```bash
@@ -54,7 +51,10 @@ The project aims to provide flexibility for NLP-based applications with support 
      ollama pull nomic-embed-text
      ```
    - For `llama.cpp`, download models from HuggingFace and ensure the format is `.gguf`.
-   - OR you can download model using ollama then copy the model file from ollama models path then change the name to .gguf
+   - OR you can download the model using Ollama, then copy the model file from Ollama’s model path and change the file extension to `.gguf`. 
+     - **Windows**: `C:\Users\USERNAME\.ollama\models\blobs`
+     - **Linux**: `/usr/share/ollama/.ollama/models/blobs`
+
 
 ## Method 1: Using llama.cpp
 

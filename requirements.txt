@@ -5,6 +5,7 @@ langchain-text-splitters
 langchain-huggingface
 langchain-chroma
 llama-cpp-python
+sentence-transformers
 nltk
 wikipedia 
 chromadb
