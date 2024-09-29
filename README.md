@@ -1,5 +1,5 @@
 
-# Retrieval-Augmented Generation (RAG) App for Document Search
+# Simple Retrieval-Augmented Generation (RAG) App for Document Search
 
 This project demonstrates the development of a **Retrieval-Augmented Generation (RAG)** system that utilizes two approaches: one using **llama.cpp** and the other with **Ollama**. The application is designed to retrieve relevant information from local documents, combining the strengths of large language models and vector-based document retrieval.
 
